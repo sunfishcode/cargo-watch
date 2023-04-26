@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 use assert_cmd::prelude::*;
 use predicates::str::is_match;
 use std::{

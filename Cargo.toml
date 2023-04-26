@@ -21,6 +21,7 @@ exclude = ["/.github"]
 name = "cargo-watch"
 
 [dependencies]
+mustang = "0.14.1"
 camino = "1.1.2"
 cargo_metadata = "0.17.0"
 clap = "2.33.1"
@@ -38,7 +39,7 @@ predicates = "2.1.5"
 wait-timeout = "0.2.0"
 
 [profile.release]
-lto = true
+#lto = true # Mustang doesn't support LTO yet.
 panic = "abort"
 codegen-units = 1
 

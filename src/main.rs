@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 use std::path::PathBuf;
 
 use camino::Utf8PathBuf;
