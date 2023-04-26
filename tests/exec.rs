@@ -1,3 +1,5 @@
+extern crate eyra;
+
 use assert_cmd::prelude::*;
 use predicates::str::is_match;
 use std::{

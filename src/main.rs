@@ -1,3 +1,5 @@
+extern crate eyra;
+
 use std::path::PathBuf;
 
 use camino::Utf8PathBuf;

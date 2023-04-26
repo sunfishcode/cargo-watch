@@ -1,3 +1,5 @@
+extern crate eyra;
+
 use assert_cmd::prelude::*;
 use std::{
     fs::OpenOptions,
